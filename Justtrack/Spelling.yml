@@ -1,5 +1,5 @@
 extends: spelling
-message: "Spelling error: '%s'"
+message: '"%s" is misspelled'
 level: error
 ignore:
   - Justtrack/ignore-general.txt

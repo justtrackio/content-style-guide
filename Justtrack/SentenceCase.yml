@@ -1,0 +1,49 @@
+extends: capitalization
+message: '"%s" should be in sentence case'
+level: warning
+scope: heading
+match: $sentence
+indicators: 
+  - "`"
+exceptions:
+  - API
+  - SDK
+  - URL
+  - URLs
+  - HTTP
+  - GET
+  - POST
+  - PUT
+  - DELETE
+  - JtAdClick
+  - JtAdClose
+  - JtAdLoad
+  - JtAdOpen
+  - JtAdShow
+  - JtAdStart
+  - JtAdStop
+  - JtButtonClick
+  - JtButtonShow
+  - JtCardClick
+  - JtCardShow
+  - JtDialogShow
+  - JtLevelFail
+  - JtLevelFinish
+  - JtLevelStart
+  - JtLogin
+  - JtNotificationClick
+  - JtNotificationShow
+  - JtPurchaseOptionClick
+  - JtPurchaseOptionConfirm
+  - JtResourceSink
+  - JtResourceSource
+  - JtScreenShow
+  - JtUserRating
+  - UserEvent
+  - SKAdNetwork
+  - ironSource
+  - CocoaPods
+  - ID
+  - Google Ads
+  - justtrack
+  - CSV
