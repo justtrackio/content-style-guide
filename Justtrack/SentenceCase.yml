@@ -6,15 +6,25 @@ match: $sentence
 indicators: 
   - "`"
 exceptions:
+  - AdColony
+  - AdGem
+  - adjoe
   - API
-  - SDK
-  - URL
-  - URLs
-  - HTTP
-  - GET
-  - POST
-  - PUT
+  - AppLovin
+  - BitLabs
+  - ChartBoost
+  - CloudWatch
+  - CocoaPods
+  - CPX Research
+  - CSV
   - DELETE
+  - GET
+  - Google Ads
+  - Gosoline
+  - HTTP
+  - ID
+  - inBrain
+  - ironSource
   - JtAdClick
   - JtAdClose
   - JtAdLoad
@@ -39,24 +49,18 @@ exceptions:
   - JtResourceSource
   - JtScreenShow
   - JtUserRating
-  - UserEvent
-  - SKAdNetwork
-  - ironSource
-  - CocoaPods
-  - ID
-  - Google Ads
   - justtrack
-  - CSV
-  - Swift Package Manager
-  - AdGem
-  - AppLovin
-  - AdColony
-  - BitLabs
-  - ChartBoost
+  - MySQL
+  - POST
+  - PUT
   - Research
-  - inBrain
+  - Revenue Universe
+  - SDK
+  - SKAdNetwork
+  - STDOUT
+  - Swift Package Manager
   - TapJoy
   - TapResearch
-  - adjoe
-  - CPX Research
-  - Revenue Universe
+  - URL
+  - URLs
+  - UserEvent
