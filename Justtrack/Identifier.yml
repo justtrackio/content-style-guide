@@ -3,6 +3,4 @@ message: 'Use "ID" instead of "%s"'
 level: error
 ignorecase: false
 tokens:
-  - "^[iI]d"
-  - "[iI]d[.:]?$"
-  - " [iI]d "
+  - "\\s+[iI]d(?:s)?\\s?"
