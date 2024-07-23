@@ -79,4 +79,4 @@ For certain phrases and terms, we have rules for consistent usage:
 
 ## Releasing linter changes
 
-Changes to these files will not automatically be propagated to the repositories that use this configuration. To make your changes available to users of this style guide, we need to cut a [new release](https://github.com/justtrackio/content-style-guide/releases).
+Changes to these files will not be automatically propagated to the repositories that use this configuration. To make your changes available to users of this style guide, we need to cut a [new release](https://github.com/justtrackio/content-style-guide/releases).
