@@ -21,10 +21,10 @@ Use contractions where possible because they sound more human and casual.
 
 Use "ID" instead of "id" or "Id" when abbreviating "Identifier".
 
-| Use this…                                              | Not this…                                              |
-| ------------------------------------------------------ | ------------------------------------------------------ |
-| This **ID** is unique to each user.                    | This **id** is unique to each user.                    |
-| Copy these IDs, and paste them in the provided fields. | Copy these Ids, and paste them in the provided fields. |
+| Use this…                                                  | Not this…                                                  |
+| ---------------------------------------------------------- | ---------------------------------------------------------- |
+| This **ID** is unique to each user.                        | This **id** is unique to each user.                        |
+| Copy these **IDs**, and paste them in the provided fields. | Copy these **Ids**, and paste them in the provided fields. |
 
 [configuration](Justtrack/Identifier.yml)
 
@@ -34,10 +34,10 @@ We enforce the following rules for headings:
 
 Headings can't start with numbers.
 
-| Use this…                          | Not this…                        |
-| ---------------------------------- | -------------------------------- |
-| Step 1: Find your API key          | 1. Find your API key             |
-| Two easy ways to find your API key | 2 easy ways to find your API key |
+| Use this…                              | Not this…                            |
+| -------------------------------------- | ------------------------------------ |
+| **Step 1:** Find your API key          | **1.** Find your API key             |
+| **Two** easy ways to find your API key | **2** easy ways to find your API key |
 
 [configuration](Justtrack/NumberedTitle.yml)
 
@@ -54,10 +54,10 @@ Headings should be in sentence case.
 
 Always use an oxford comma.
 
-| Use this…         | Not this…         |
-| ----------------- | ----------------- |
-| Input your first name, your last name, and your birthdate.  | Input your first name, your last name and your birthdate. |
-| Adjoe, Google Ads, and Applovin  | Adjoe, Google Ads and Applovin |
+| Use this…                                                  | Not this…                                                 |
+| ---------------------------------------------------------- | --------------------------------------------------------- |
+| Input your first name, your last name, and your birthdate. | Input your first name, your last name and your birthdate. |
+| Adjoe, Google Ads, and Applovin                            | Adjoe, Google Ads and Applovin                            |
 
 [configuration](Justtrack/OxfordComma.yml)
 
@@ -79,4 +79,4 @@ For certain phrases and terms, we have rules for consistent usage:
 
 ## Releasing linter changes
 
-Making changes to these files will not automatically be propagated to the repositories that use this configuration. To make your changes available to users of this style guide, we need to cut a [new release](https://github.com/justtrackio/content-style-guide/releases).
+Changes to these files will not automatically be propagated to the repositories that use this configuration. To make your changes available to users of this style guide, we need to cut a [new release](https://github.com/justtrackio/content-style-guide/releases).
