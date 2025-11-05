@@ -1,6 +1,6 @@
 extends: existence
 message: 'Use "ID" instead of "%s"'
-level: error
+level: warning
 ignorecase: false
 tokens:
   - "\\s+[iI]d(?:s)?\\s?"

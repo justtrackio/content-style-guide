@@ -1,6 +1,6 @@
 extends: existence
 message: 'Titles should not start with numbers'
-level: error
+level: warning
 scope: heading
-tokens: 
+tokens:
   - "^\\d+"

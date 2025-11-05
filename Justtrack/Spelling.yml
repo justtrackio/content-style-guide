@@ -1,6 +1,6 @@
 extends: spelling
 message: '"%s" is misspelled'
-level: error
+level: warning
 ignore:
   - Justtrack/ignore-general.txt
   - Justtrack/ignore-industry-terms.txt
